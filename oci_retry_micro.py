@@ -12,10 +12,10 @@ import datetime
 
 # ─── Configuration ───────────────────────────────────────
 COMPARTMENT_ID = (
-    "ocid1.tenancy.oc1..aaaaaaaaaqij5zlnm3v5qprvdll3j7nc6o3dk4ykzerugzxe37ckajkpjxpa"  # Replace with your tenancy OCID
+    "ocid1.tenancy.oc1..aaaaaaaai6rtgxnr732d3uoic2sde2uvnll4wlby5d7bsdl7nu67ovbehy2a"  # Replace with your tenancy OCID
 )
-SSH_PUBLIC_KEY = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxPqVeut2vbwt8VVAvHDnEN+q61jrIAGD9cQgW6kTeLCjjzm9UHt2Flf1KoohSu+0YFvSn8+t67r9T9wfdP14WBfZAg531CCyUNTbF5KmkaHgmxftWu3FgY00BTnGa4YEEXdAGn3X953HzFKJDpJVJyWFfWXJUOWdfivTKlO+62SBnlIdcanckwA6rzr9dXNSYlasoVnuk+ujANjhnxf4TpKcI4AQrAmRJQ83lXfI2yExBMX+Qx/JNSA2/2XFRfT7OMgddExibCRpSyammfatNLUIM5s+ab6aeO3aNvVWGok6/dpYaBPbvndERQs6p9FQr88C/VFeEwHCtvMT8c2WB ssh-key-2026-03-07"  # Replace with your SSH public key (.pub file content)
-INSTANCE_NAME = "micro-server"  # Change for each new instance (e.g. "micro-server-2" for a second one)
+SSH_PUBLIC_KEY = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9me/eJ3qb+R6HyxA+0fatefLoqXw8RxuLfVSGK3v6IZJH68lWrIFbH7IrDYPveyexXj+p+/59yzLfxR9QD1gCP3Re0vAVk0SdkQfo/jBq/uLqvmx/eGpntOZ7rzSR6m0JPKIG2vpOrYuDesAM3DgacdMqmOSE0Q6WsJ4VOqimNKP14fOiJZY+MdE8e6NGSiyA+EptYaN6JOAiAh2ynSRZNkKA7NTDRgxVyavzFBhowAX53se17xP6R3BBCWHSBElEZLZu+JUBN4FPqn8HXaW4ZmxLN3ek5HwVzWU1neUB62fxXoBRtrq3Tkr9oVZyRg3DjPSq+aabu5mVFKqD/qct ssh-key-2026-11-06"  # Replace with your SSH public key (.pub file content)
+INSTANCE_NAME = "sjc-amd-server"  # Change for each new instance (e.g. "micro-server-2" for a second one)
 BOOT_VOLUME_SIZE_IN_GBS = 50
 RETRY_INTERVAL = 90  # seconds
 # ────────────────────────────────────────────────────────
